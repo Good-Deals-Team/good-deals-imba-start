@@ -1,10 +1,11 @@
 const usps = [
-	`Compiles to Javascript`
-	`Works with Node + npm`
-	`Smart, Minimal Syntax`
-	`Built-in DOM Tags & Styles`
+	`Know your past`
+	`Plan your future`
+	`Build connections`
+	`Share understanding`
 	`Amazing Performance`
 ]
+# todo: come back to this and figure out how to better use these examples
 
 const examples = {
 	paint: '/examples/paint/app.imba?preview=md&dir=1&titlebar=1&windowed=1&title=Paint Demo'
@@ -16,7 +17,7 @@ const examples = {
 import {ls,fs,File,Dir} from '../store'
 
 css .gradient
-	bg: linear-gradient(to right,indigo7,blue6,pink6)
+	bg: linear-gradient(to right,green7,blue6,green5)
 	-webkit-background-clip:text
 	-webkit-text-fill-color:transparent
 	width: max-content
@@ -353,19 +354,17 @@ tag home-page
 	def render
 		<self @resize.silent.debounce(100ms)=resizing>
 			<.breadcrumb[ta:left w:100% px:6]>
-				<span> <a href="/"> "Imba"
-				<span.self> <a href="/"> "The friendly full-stack language"
+				<span> <a href="/"> "Good Deals"
+				<span.self> <a href="/"> "Tools for good times"
 				<app-search-field>
 			# <div[h:22px ta:left w:100% px:6 fw:500]> "Imba / Welcome"
 			# <rotating-shapes>
 			<home-section[pt:10yp pb:10yp]>
-				# <h1[py:5].gradient> `Build Fast, Fast.`
-				<h1[py:5 fs:120px/1].gradient> `Imba`
-				# <div[fs:60px/1]> 'Build Things Fast'
+				<h1[py:5 fs:120px/1].gradient> `Good Deals`
 				<div[mt:6]>
 					css d:hflex flw:wrap g:10px cg:30px
 					<div[fs:xl/1.8 fl:100 1 470px]>
-						<p[c:cool8]> `Imba is a Web programming language that's fast in two ways: Imba's time-saving syntax with built-in tags and styles results in less typing and switching files so you can {<u> 'build things fast.'} Imba's groundbreaking memoized DOM is an order of magnitude faster than virtual DOM libraries, so you can {<u> 'build fast things.'}`
+						<p[c:cool8]> `Good Deals creates software and communities that use time well and sustainably. The Good Deals tool enables teams to {<u> 'strike deals.'} Good Deals groundbreaking river of time interface is an order of magnitude more powerful than traditional tools, so you can {<u> 'work well and live well.'}`
 						<div[d:block @480:hflex fs:md @580:lg  mx:-2 my:4]>
 							css a rd:xl m:2 p:2 bg:green3 bd:green3-5 bcb:green5 px:4 c:green8 fw:bold d:block ta:center
 								@hover bg:green3-3
@@ -373,7 +372,7 @@ tag home-page
 							css div rd:xl bd:gray2 bg:gray1 m:2 p:2 pr:4 c:gray6 ff:mono bs:solid fw:bold
 								fs:sm @580:17px ls:-0.3px d:hflex ja:center
 								@before content: '>' c:gray3  px:1
-							<div> "npx imba create hello-world"
+							<div> "and get ready to learn"
 					<ul[min-width:320px fl:1 0 330px]>
 						css d:block rd:lg p:6 fs:lg bxs:xxs,lg bg:white/70 h:auto as:start
 							@!1024 p:4 fs:md
@@ -386,10 +385,12 @@ tag home-page
 			<home-section[my:10px mb:30px]>
 				css c:yellow9 fs:xl
 				<.bg [pos:abs inset:0 z:-2px t:-20px b:-20px rotate:0.1deg bg:yellow1]>
+
 				<div[d:vflex ja:center]>
-					<span[c:yellow9 fw:600]> "We are overhauling the docs, and we need your help!"
+					<span[c:yellow9 fw:600]> "We are a work in progress - pre-general launch - and need your help"
 					<span[fs:md]> "Do you have a few minutes to answer what you think is missing? "
-					<a[c:blue6 td:underline] href='https://form.typeform.com/to/GdMKZMBh'> 'Take Survey'
+					<a.link [c:blue6 td:underline] href='https://invest.gooddeals.work'> 'Invest in Us'
+					<a.link [c:blue6 td:underline] href='https://invest.gooddeals.work'> 'Work with Us'
 					
 
 	
