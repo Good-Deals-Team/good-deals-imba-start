@@ -1,26 +1,30 @@
-# Smart, Beautiful, Minimal
+# Rooted in Cause & Effect
 
-Imba's syntax is minimal, beautiful, and packed with clever features. Less keystrokes, and less switching files means you'll be able to build things fast.
+Good Deals focuses attention on what drives value for service businesses and builds the tactical actions from there. This makes for a simple interface that facilitates focus on valuable actions rather than lots of context switching.
+
+TODO: we need to edit this to have a different example. Ideally we'd have a stacked area graph of supply and demand for hours that can be switched into $$s.
 
 [demo](/examples/paint/app.imba?preview=md&dir=1&titlebar=1&windowed=1&title=Paint%20Demo)
 
-> There is no hidden code or stylesheets here. What you see is what you get.
+> Strategic thinking is built in and wether you're focused on sales or delivery the highest value action is easy to know
 
-# Full-stack language
+# Complete solution for service businesses
 
-Imba is neither an academic exercise or a toy project. We've built Imba over many years to build the frontend *and* backend of scrimba.com. Our goal has always been to create the most fun and powerful language for creating rich web applications.
+Good Deals contains everything you need to make deals, collect and manage money and hire and manage a team's time. 
 
 [demo](/examples/express/app.imba?dir=1&preview=md&windowed=1&title=HN%20Clone&url=https://simple-hn.imba.io/top)
 
-Imba works just as well on the server as on the client. It interoperates fully with the npm + node ecosystem. The whole stack of [scrimba.com](https://scrimba.com) is written in Imba.
+Good Deals even has built in contracts and project templates to make fair and good deals as simple as keeping your word.
 
-# Styling Evolved
+# Time Elevated
 
-Inspired by tailwind, Imba brings styles directly into your code. Styles can be scoped to files, components, and even parts of your tag trees. [Style modifiers](/docs/css/modifiers) like `@hover`, `@lg`, `@landscape` and `@dark` can be used for extremely concise yet powerful styling.
+Service businesses face the ultimate challenge everyday - taking time and making it valuable. Whether your managing yourself or your team your profit and long term success is based on how well you do each day at improving your worth and finding people who value you and you can work well with. Service businesses in this way are the ultimate challenge of time management. 
+
+Unlike other apps Good Deals promotes a focus on using time well and maximizing it's value. Our tool helps you and your team plan around the things that are impotant to them and build for a sustainable future through knowlege of the past and present.
 
 [demo](/examples/simple-clock?&windowed=1&title=Clocks&ar=1)
 
-Styles can also be set directly on elements. Inline styles works with all modifiers.
+Eventually our goal - and what we are building towards - is a tool that creates a universal plan for eliminating debt and creating a society of free owners. This is part of the [Conara](https://conara.life) mission to create a society of free owners and the [Ronin Society](https://theroninsociety.com) mission to create an investable and competitive small market asset class.
 
 [demo](/examples/clock?&windowed=1&title=Clocks&ar=1)
 
